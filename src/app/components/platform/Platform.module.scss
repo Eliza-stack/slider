@@ -1,0 +1,28 @@
+.platform {
+  max-width: 1240px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.platform__header {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.platform__title {
+  margin: 0;
+}
+
+.platform__description {
+  margin-top: 16px;
+  color: #535862;
+}
+
+.platform__cards {
+  border: 2px solid red;
+  display: flex;
+  gap: 20px;
+}
+
+
